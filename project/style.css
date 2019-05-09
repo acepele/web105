@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Akronim', cursive;
+}
+
+
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('myimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.clearfix::after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.logo{
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav{
+    float: right;
+    margin-top: 60px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+}
+.main-content-header{
+    width: 1180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+h1{
+    color: white;
+    font-size: 240%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    }
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    border-radius: 200px;
+    text-transform: uppercase;
+}
+.btn-full{
+    background-color: transparent;
+    color:black;
+    margin-right: 15px;
+    border: 1px solid black;
+}
+.btn-nav{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.text{
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu{
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   color: black;
+  
+}
+.menu h1{
+    color: black;
+}
+
+.bg{
+    width: 100%;
+    height: auto;
+
+}
+.devider{
+    background-color: brown;
+    text-align: center;
+    max-width: 100%;
+    min-height: 20px;
+    margin-top: 20px;
+}
+hr{
+    width: 75%;
+    opacity: .7;
+    margin: 20px;
+   
+}
+.contact{
+    color: black;
+    text-align: center;
+}
+.team-section{
+    overflow: hidden;
+    text-align: center;
+    background: brown;
+    padding: 40px;
+}
+.team-section h1{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 40px;
+}
+.border{
+    
+    margin: auto;
+    width: 150px;
+    height: 3px;
+    background: black;
+    margin-bottom: 40px;
+}
+.ps{
+    margin-bottom: 40px;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.ps a img{
+    width: 100%;
+}
+.section{
+   margin-right: 70px;
+    
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    display: inline-block;
+    overflow: auto;
+}
+.section:target{
+    height: auto;
+}
+.name{
+    display: inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social{
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    margin-left: 35%;
+}
+.social ul li{
+    display: inline-block;
+    margin-left:  65px;
+    margin-right: auto;
+
+}
+.footer{
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 65;
+    margin-right: auto;
+    margin-top: 30px;
+    }
